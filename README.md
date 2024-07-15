@@ -10,3 +10,5 @@ Explore Alchemix's diverse collateral strategies to find the best self-repaying 
 
 <br/>
 Published - July 15, 2024
+
+[Gitbook Mirror for Docs](https://psychophilosophy.gitbook.io/alchemix-document-portal/)
