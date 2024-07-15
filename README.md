@@ -3,7 +3,7 @@ Alchemix lets you instantly access loans representing your collateral's future y
 
 Alchemix gives you DeFi loans that transform future yield into present-day capital.
 
-Explore Alchemix's diverse collateral strategies to find the best self-repaying loan for you on our main website.
+Explore Alchemix's diverse collateral strategies to find the best self-repaying loan for you on our [main website](https://alchemix.fi/).
 
 
 Published - July 15, 2024
