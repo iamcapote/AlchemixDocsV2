@@ -25,9 +25,9 @@ alAssets can be swapped for other assets, paired with other assets to provide li
 
 Because alAssets represent _future_ yield, they are typically expected to be valued by the market at a discount from 1:1 with their associated underlying asset. Thus, experienced DeFi users may wish to purchase alAssets directly (instead of taking a loan) to earn yield, speculate on the price of the alAsset, or profit by converting it back to its underlying asset via the Transmuter. This type of user is the counterparty that makes it possible to access self-repaying loans from Alchemix.&#x20;
 
-Governance mechanisms and systems, such as the Transmuter, Elixir AMO, and liquidity incentives provided by the DAO treasury, work together to influence price and manage supply of the alAssets.
+Governance mechanisms and systems, such as the Transmuter, Elixir AMO, and liquidity incentives provided by the DAO treasury, work together to influence the price and manage the supply of alAssets.
 
-<figure><img src="../.gitbook/assets/01_02 (3).png" alt=""><figcaption><p>alAssets are minted when users deposit collateral into the Alchemists and take out loans against those deposits. These assets can be used in market swaps or in any type of transactions. alAssets can also be used in the Transmuter which will gradually convert these into the underlying from the harvested yields.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/01_02 (3).png" alt=""><figcaption><p>alAssets are minted when users deposit collateral into the Alchemists and take out loans against those deposits. These assets can be used in market swaps or any type of transaction. alAssets can also be used in the Transmuter which will gradually convert these into the underlying from the harvested yields.</p></figcaption></figure>
 
 ## Key Features
 

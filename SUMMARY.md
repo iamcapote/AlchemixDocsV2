@@ -11,6 +11,7 @@
 * [🧪 Elixir AMO](alchemix-ecosystem/elixir-amo.md)
 * [⛓️ Alchemix on L2](alchemix-ecosystem/alchemix-on-l2.md)
 * [🛠️ Utility Tools](alchemix-ecosystem/utility-tools.md)
+* [🗝️ Links & Resources](alchemix-ecosystem/links-and-resources.md)
 
 ## 🌙 Alchemix DAO
 

@@ -33,7 +33,7 @@ The Alchemix DAO serves as the governance backbone for the Alchemix ecosystem. I
 
 ## The Future
 
-As the Alchemix protocol and DAO advances there will be a progressive shift to empower community governance through a transparent and open process. The team values community feedback and recognizes the wealth of knowledge and diversity of skillset within the community and anticipates that this will significantly shape the DAO's direction and design.
+As the Alchemix protocol and DAO advance, there will be a progressive shift to empower community governance through a transparent and open process. The team values community feedback and recognizes the wealth of knowledge and diverse skill sets within the community, anticipating that this will significantly shape the DAO's direction and design.
 
 <figure><img src="../../.gitbook/assets/PlainLine_01.png" alt=""><figcaption></figcaption></figure>
 

@@ -22,7 +22,7 @@ layout:
 
 # ⚠️ Risk & Counterparties
 
-The purpose of this article is to go over the risks that various types of users of the Alchemix system take on when the system is functioning as intended. This list is not intended to be exhaustive, as certain risks are inherent to DeFi and Crypto in general, such as smart contract risk. For information about other types of risks, see [Multisig Admin Rights](https://alchemix-finance.gitbook.io/user-docs/multisig-admin-rights), [Audits](https://alchemix-finance.gitbook.io/user-docs/audits), and [Vault Losses and Collateral De-pegging](https://alchemix-finance.gitbook.io/user-docs/guides-and-explainers/vault-losses-and-collateral-de-pegging).
+The purpose of this article is to go over the risks that various types of users of the Alchemix system take on when the system is functioning as intended. This list is not intended to be exhaustive, as certain risks are inherent to DeFi and Crypto in general, such as smart contract risk. For information about other types of risks, see [Multisig Admin Rights](https://alchemix-finance.gitbook.io/user-docs/alchemix-dao/the-alchemix-dao/governance-process/multisig-admin-rights), [Audits](https://alchemix-finance.gitbook.io/user-docs/resources/audits-and-reports), and [Vault Losses and Collateral De-pegging](https://alchemix-finance.gitbook.io/user-docs/resources/guides/vault-losses-and-collateral-de-pegging).
 
 ## Depositors (Borrowers) <a href="#depositors-borrowers" id="depositors-borrowers"></a>
 
@@ -32,7 +32,7 @@ The primary risk a depositor takes on is risk of having funds deposited in the u
 
 In the scenario of an underlying strategy suffering a majority loss of funds (ie, greater than 50% of the strategy), then the user would actually have bad debt with Alchemix (the value of their debt would exceed the value of their collateral). In this scenario, the user actually suffered less of a loss by using Alchemix.
 
-Note some yield strategies may require selling yielded tokens to harvest yield. In this scenario, a temporary depeg of the value of the harvested token would result in the user experiencing reduced yield for the period of time the token remains depegged. For more an examples of the protocol handles collateral depeg events and vault losses, see [Vault Losses and Collateral De-pegging](https://alchemix-finance.gitbook.io/user-docs/guides-and-explainers/vault-losses-and-collateral-de-pegging).
+Note some yield strategies may require selling yielded tokens to harvest yield. In this scenario, a temporary depeg of the value of the harvested token would result in the user experiencing reduced yield for the period of time the token remains depegged. For more an examples of the protocol handles collateral depeg events and vault losses, see [Vault Losses and Collateral De-pegging](https://alchemix-finance.gitbook.io/user-docs/resources/guides/vault-losses-and-collateral-de-pegging).
 
 ## Liquidity Providers / Transmuter Users <a href="#liquidity-providers-transmuter-users" id="liquidity-providers-transmuter-users"></a>
 
@@ -50,9 +50,9 @@ A liquidity provider / alUSD holder that does not have an Alchemix position in a
 
 If the balance of the pool moves favorably for the LPer over time, they can earn yield as well as a net positive slippage from the difference between their exit and entry position. If the balance of the pool moves unfavorably, then the net negative slippage would be subtracted from the yield earned during their liquidity provision over time.
 
-A user can hedge this exposure by using the Transmuter, or by being a depositor within Alchemix. If the alAsset pool shifts less favorably for the depositor/LPer, they can withdraw alUSD instead of stablecoins for a bonus positive slippage and repay their debt. They could also use the same approach with the Transmuter, at the opportunity cost of waiting for the collateral to flow into the Transmuter. See [Transmuter](https://alchemix-finance.gitbook.io/user-docs/components/transmuter) and [The Transmuter, Elaborated](https://alchemix-finance.gitbook.io/user-docs/guides-and-explainers/the-transmuter-elaborated) for more information on how the Transmuter distributes collateral to alAsset stakers.
+A user can hedge this exposure by using the Transmuter, or by being a depositor within Alchemix. If the alAsset pool shifts less favorably for the depositor/LPer, they can withdraw alUSD instead of stablecoins for a bonus positive slippage and repay their debt. They could also use the same approach with the Transmuter, at the opportunity cost of waiting for the collateral to flow into the Transmuter. See [Transmuter](https://alchemix-finance.gitbook.io/user-docs/alchemix-ecosystem/transmuter) and [The Transmuter, Elaborated](https://alchemix-finance.gitbook.io/user-docs/resources/guides/the-transmuter-elaborated) for more information on how the Transmuter distributes collateral to alAsset stakers.
 
-Lastly, alAssets could become undercollateralized if a large enough loss of funds of an underlying yield strategy occurred, as detailed in the [Depositors (Borrowers)](https://alchemix-finance.gitbook.io/user-docs/guides-and-explainers/risk-and-counterparties#depositors-borrowers)section.
+Lastly, alAssets could become undercollateralized if a large enough loss of funds of an underlying yield strategy occurred, as detailed in the [Depositors (Borrowers)](risk-and-counterparties.md#depositors-borrowers) section.
 
 ## Alchemix DAO and ALCX Holders <a href="#alchemix-dao-and-alcx-holders" id="alchemix-dao-and-alcx-holders"></a>
 

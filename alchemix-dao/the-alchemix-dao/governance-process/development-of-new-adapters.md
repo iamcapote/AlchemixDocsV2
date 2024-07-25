@@ -25,21 +25,21 @@ Technical contributions to the Alchemix ecosystem can come in many forms, includ
 * Integration with other DeFi protocols
 * Alchemix-specific tools and utilities
 
-However, in order to integrate any new smart contracts into an AlchemixV2 debt system, some governance actions will be required. Contributors should use the following procedures to guide them as they prepare to build and integrate code into the Alchemix ecosystem.
+However, to integrate any new smart contracts into an AlchemixV2 debt system, some governance actions will be required. Contributors should use the following procedures to guide them as they prepare to build and integrate code into the Alchemix ecosystem.
 
 
 
 ## Token Adapters
 
-Alchemix token adapters are standardized methods that are used to interact with different yield-bearing assets or vaults. Alchemix uses token adapters to integrate and manage the various assets seamlessly.
+Alchemix token adapters are standardized methods used to interact with different yield-bearing assets or vaults. Alchemix uses token adapters to integrate and manage the various assets seamlessly.
 
-The following details the steps necessary for integrating a new adapter into the Alchemix V2 protocol.
+The following details the steps are necessary for integrating a new adapter into the Alchemix V2 protocol.
 
 ### Token Adapter Governance Process <a href="#token-adapter-governance-process" id="token-adapter-governance-process"></a>
 
 There are three steps, including 2 separate AIPs (Alchemix Improvement Proposals), needed to get an adapter approved and connected in an Alchemix V2 debt system. The first AIP is technically optional, as both AIPs could be condensed into a single AIP if the integration developer is comfortable putting in the development work upfront without pre-approval.
 
-The [Community Governance Process ](https://alchemix-finance.gitbook.io/user-docs/alchemix-dao/community-governance-process)details the general governance steps that should be followed for each AIP.
+The [Community Governance Process](https://alchemix-finance.gitbook.io/user-docs/alchemix-dao/the-alchemix-dao/governance-process) details the general governance steps that should be followed for each AIP.
 
 #### _Step 1 - Propose the new yield source for integration, and request grant funding._ <a href="#step-1" id="step-1"></a>
 
@@ -47,7 +47,7 @@ The purpose of this step is for the integrator/proposer to verify that the Alche
 
 A template for Step 1 proposals will be provided in the future.
 
-#### _Step 2 - Write, deploy and verify the ITokenAdapter compliant adapter. See_ [_Technical Requirements_](https://alchemix-finance.gitbook.io/user-docs/alchemix-dao/technical-contributions/token-adapters#technical) _below._ <a href="#step-2" id="step-2"></a>
+#### _Step 2 - Write, deploy, and verify the ITokenAdapter compliant adapter. See Technical Requirements below at the end of section._ <a href="#step-2" id="step-2"></a>
 
 #### _Step 3 - Propose integration of the new yield source using the new adapter._ <a href="#step-3" id="step-3"></a>
 
@@ -56,16 +56,16 @@ The following parameters need to be approved in at least one of the two AIPs:
 * Target network (eg. ETH Mainnet, Optimism, etc…)
 * Yield bearing asset name & address (include Etherscan & Github links)
 * Collateral asset name & address (include Etherscan & Github links)
-* [Maximum Loss](https://alchemix-finance.gitbook.io/v2/docs/alchemistv2#setmaximumloss) is expressed in basis-points (eg., 50 for 0.5%) [more info](https://github.com/alchemix-finance/v2-foundry/blob/master/src/interfaces/alchemist/IAlchemistV2AdminActions.sol#L49)
+* [Maximum Loss](https://alchemix-finance.gitbook.io/v2/docs/alchemistv2#setmaximumloss) is expressed in basis points (eg., 50 for 0.5%) [more info](https://github.com/alchemix-finance/v2-foundry/blob/master/src/interfaces/alchemist/IAlchemistV2AdminActions.sol#L49)
 * Deposit cap (expressed in units of underlying collateral) [more info](https://github.com/alchemix-finance/v2-foundry/blob/master/src/interfaces/alchemist/IAlchemistV2AdminActions.sol#L49)
 * Credit unlock blocks (how long after a harvest does it take for the yield to be distributed to depositors) [more info](https://github.com/alchemix-finance/v2-foundry/blob/master/src/interfaces/alchemist/IAlchemistV2AdminActions.sol#L49)
 
 The following needs to be approved as well, once development and deployment are complete:
 
 * Adapter name & address
-  * include etherscan link
-  * include github link to solidity code in the [v2-foundry repo](https://github.com/alchemix-finance/v2-foundry)
-  * include github link to deployment artifacts in [deployments repo](https://github.com/alchemix-finance/deployments)
+  * include Etherscan link
+  * include Github link to solidity code in the [v2-foundry repo](https://github.com/alchemix-finance/v2-foundry)
+  * include Github link to deployment artifacts in [deployments repo](https://github.com/alchemix-finance/deployments)
 * Multisig transaction details that should be executed by the Alchemix dev multisig, detailed [here](https://alchemix-fi.atlassian.net/wiki/spaces/AL/pages/679608321/Adapter+Integration#Dev-Multisig-Transactions)
 
 NOTE: To be clear, all of the above bullet points only need to be approved ONCE by governance. It is up to the builder whether or not they want pre-approval before creating and deploying the new adapter, or if they want to make a single AIP for approval once the adapter is built, deployed, and verified.
@@ -77,8 +77,8 @@ NOTE: To be clear, all of the above bullet points only need to be approved ONCE 
 ## Technical Requirements <a href="#technical-requirements" id="technical-requirements"></a>
 
 1. Build a token adapter that is compliant with the [**ITokenAdapter** interface](https://github.com/alchemix-finance/v2-foundry/blob/master/src/interfaces/ITokenAdapter.sol), along with a set of unit & integration tests, and make a PR against the master branch of the [Alchemix V2 Repo](https://github.com/alchemix-finance/v2-foundry).
-2. Once the pr is approved and merged by the core team, deploy the contract to the target network.
-3. Make a pr against the master branch of the [deployments repo](https://github.com/alchemix-finance/deployments) that includes the artifacts from the deployment (json file containing, at a minimum, the **abi** & **address** of the deployed adapter).
+2. Once the Pull Request is approved and merged by the core team, you can deploy the contract to the target network.
+3. Make a pr against the master branch of the [deployments repo](https://github.com/alchemix-finance/deployments) that includes the artifacts from the deployment (.json file containing, at a minimum, the **abi** & **address** of the deployed adapter).
 
 
 

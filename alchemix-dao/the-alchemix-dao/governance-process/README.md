@@ -19,7 +19,7 @@ layout:
 
 # 🕯️ Governance Process
 
-The Alchemix DAO is run through a developer multisig, with signaling through the Snapshot app.
+The Alchemix DAO is run through a developer multisig, signaling through the Snapshot app.
 
 ALCX Tokens give holders governance rights over the direction of the protocol and use of the treasury. Community members may create proposals by following the community governance process. If you are interested in submitting a proposal to the Alchemix DAO, you must follow the process below. If you want to apply directly for a grant, please see [Questbook.](https://alchemix.questbook.app/)
 
@@ -29,7 +29,7 @@ ALCX Tokens give holders governance rights over the direction of the protocol an
 
 ### Step 0 - Draft Proposal Discussion <a href="#step-0" id="step-0"></a>
 
-Gather sentiment for your proposal idea through discussion with the community in the Discord server, fireside chats, DMs with other community members, and/or writing a draft document to share. Refine your proposals with the comments and interests of the community.
+Gather sentiment for your proposal idea through discussion with the community in the Discord server, fireside chats, DMs with other community members, and writing a draft document to share. Refine your proposals with the comments and interests of the community.
 
 
 
@@ -41,7 +41,7 @@ Post your proposal as a new thread in the #governance-proposals channel of the D
 
 ### Step 2 - Community Discussion <a href="#step-2" id="step-2"></a>
 
-Ping any relevant contributors thus far in the thread and engage in discussion related to the proposal. This step is very important, as you want your proposal to gather as much feedback as possible.
+Ping any relevant contributors thus far in the thread and engage in discussion related to the proposal. This step is important, as you want your proposal to gather as much feedback as possible.
 
 
 
@@ -73,20 +73,20 @@ Official AIPs will have a quorum of 35k ALCX. If the quorum is met, then the mul
 
 ### Common Proposal Types <a href="#common-proposal-types" id="common-proposal-types"></a>
 
-1. A change to the protocol treasury and/or how it is utilized.
+1. A change to the protocol treasury and how it is utilized.
 2. A change to protocol parameters (such as Transmuter flow rate).
 3. A grant, donation, or funding request for a specific feature.
-4. Deploying a new protocol-related contract or contract upgrade from the core team (e.g., deploying a new yield strategy or deploying on a new chain).
+4. Deploying a new protocol-related contract or upgrading an existing one by the core team (e.g., introducing a new yield strategy or launching on a new chain).
 
 
 
 ### What Makes a Good Proposal? <a href="#what-makes-a-good-proposal" id="what-makes-a-good-proposal"></a>
 
 1. The proposals should have a structure or format that makes giving context and background information easy.
-2. The first item in the proposal should summarize only the action items on what is being proposed. In order to be as succinct as possible, it should not include any justification. This section intends to detail every step necessary to execute the proposal.&#x20;
+2. The first item in the proposal should summarize only the action items on what is being proposed. To be as brief as possible, it should not include any justification. This section intends to detail every step necessary to execute the proposal.&#x20;
 3. The introduction of the proposal should be an introduction giving context to the reason for the proposal and what the body of the proposal contains. This section should include the necessary background information or minimum context to understand the proposal.
-4. The body of the proposal should include in-depth analysis and justification for what is being proposed. This section can include the area of impact, justification, charts and analysis, in-depth technical specifications, budget allocations, and implementation.
-5. The end of the proposal should state the voting options that will appear on the snapshot and what they mean (For, Against, Abstain). This section should clarify what each of the options the vote means in precise and direct language.
-6. Any proposal that requires a high level of effort (new features, new deployments, grant requests etc) should identify who will do the work or who exactly will implement the proposal. For example, a poorly written proposal would suggest a new feature, while a well-written proposal would suggest a new feature and provide verification that the Core team is willing and able to build the feature, OR it should state who is building the feature if it is a third party. If a grant request is included, then there is more onus on the proposer to justify why they will be able to build the feature. Treasury actions and changing protocol parameters will typically only take a handful of multi-sig transactions - in these cases, it can be assumed that the multi-sig will carry out the proposal if passed.
+4. The body of the proposal should include an in-depth analysis and justification for what is being proposed. This section should include the area of impact, justification, charts and analysis, in-depth technical specifications, budget allocations, and implementation.
+5. The end of the proposal should state the voting options that will appear on the snapshot and what they mean (For, Against, Abstain). This section should clarify what each voting option means in precise and direct language.
+6. Any proposal that requires a high level of effort (new features, new deployments, grant requests etc) should identify who will do the work or who exactly will implement the proposal. For example, a poorly written proposal might suggest a new feature, while a well-written proposal would not only suggest the feature but also provide verification that the Core team is willing and able to build it, or specify who will build it if a third party is involved. If a grant request is included, then there is more onus on the proposer to justify why they will be able to build the feature. Treasury actions and changing protocol parameters will typically only take a handful of multi-sig transactions - in these cases, it can be assumed that the multi-sig will carry out the proposal if passed.
 
 <figure><img src="../../../.gitbook/assets/header_02_test.png" alt=""><figcaption></figcaption></figure>

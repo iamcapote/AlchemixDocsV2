@@ -19,17 +19,17 @@ layout:
 
 # 🛠️ Utility Tools
 
-Alchemix has utility tools that are built by 3rd parties, but these have no guarantee of audit, review, ownership or maintenance by Alchemix and you can find them in the [utilities page on the website](https://alchemix.fi/utilities).
+Alchemix has utility tools that are built by 3rd parties. These tools have no guarantee of audit, review, ownership, or maintenance by Alchemix and you can find them on the [utilities page on the website](https://alchemix.fi/utilities).
 
 
 
 ### Statistics
 
-Alchemix keeps an extensive statistical data dashboard where you can find all the information related to vaults, staking, treasury and more!&#x20;
+Alchemix keeps an extensive statistical data dashboard where you can find all the information related to vaults, staking, treasury, and more!&#x20;
 
 {% embed url="https://alchemix-stats.com/" %}
 
-Additionally you can find more information on everything related to Alchemix in:
+Additionally, you can find more information about Alchemix at:
 
 * [Revelo Intel - Alchemix Breakdown](https://revelointel.com/project-breakdown/alchemix)
 * [Dashboard made by AlphaBay](https://app.alphaday.com/b/alchemix/)

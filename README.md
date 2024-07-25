@@ -23,30 +23,15 @@ Explore Alchemix's diverse collateral strategies to find the best self-repaying 
 ## Quick Start Guide
 
 1. **Deposit to Earn & Borrow**\
-   Deposit your collateral into your preferred yield strategy in order to earn interest, and take out a loan. Use your deposit to borrow and receive alAssets while your deposit earns interest.\\
-2. **Swap alAssets**\
-   Swap the alAsset to any other token via a DEX or DEX Aggregator to access the value of your loan. alAssets can also be used directly on some DeFi protocols.\\
+   Deposit your collateral into your preferred yield strategy to start earning interest, and be able to take out a loan. Use your deposit to borrow and receive alAssets while your deposit earns interest.
+2. **Swap alAsset**\
+   Swap the alAsset to any other token via a DEX or DEX Aggregator to access the value of your loan. alAssets can also be used directly on some DeFi protocols.
 3. **Wait, Withdraw, Borrow, Repay, or Self-Liquidate**\
-   Your chosen yield strategy will earn interest on the full initial deposit. When the chosen strategy earns yield, your share of the yield is used to automatically repay your debt over time. Manage your loan as needed, with the flexibility to withdraw principal, borrow more, repay, or self-liquidate at any time.
+   Your chosen yield strategy will earn interest on the full initial deposit. When the chosen strategy earns yield, your share of the yield is used to repay your debt over time automatically. Manage your loan as needed, with the flexibility to withdraw principal, borrow more, repay, or self-liquidate at any time.
 
 <figure><img src=".gitbook/assets/01_02.png" alt=""><figcaption><p><strong>The Alchemist Flow.</strong> Deposit your collateral to Alchemix to earn credit, borrow synthetic assets to spend, or save your capital and let your credit accrue.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/02_02 (1).png" alt=""><figcaption><p><strong>Alchemix Collateral.</strong> These are the types of underlying collateral assets that Alchemix supports. Alchemix offers a diverse selection of yield strategies for each underlying asset.</p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/PlainLine_01.png" alt=""><figcaption></figcaption></figure>
-
-## **Resources &** Useful links
-
-* [**Website**](https://www.alchemix.fi/)
-* [**Discord**](https://discord.com/invite/alchemix)
-* [**Twitter**](https://twitter.com/AlchemixFi)
-* [**YouTube**](https://www.youtube.com/c/AlchemixFinance)
-* [**Medium**](https://alchemixfi.medium.com/)
-* [**Newsletter**](https://alchemixfi.substack.com/)
-* [**Stats and data**](https://alchemix-stats.com/)
-* [**Grants Program**](https://alchemix.questbook.app/)
-* [**Developer Docs**](https://alchemix-finance.gitbook.io/v2/)
-* [**Front End Repository**](https://github.com/alchemix-finance/alchemix-v2-frontend)
 
 ## Learn more
 

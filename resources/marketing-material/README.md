@@ -21,15 +21,21 @@ layout:
 
 ## Marketing Material
 
-Our logos for use in promo and marketing materials. Please consult the brand book for more information. For any questions, please contact @metalface in the official Discord.
+Our logos are for use in promo and marketing materials.
 
-#### Brand book <a href="#brand-book" id="brand-book"></a>
+Please consult the brand book for more information.
+
+For any questions, please contact @metalface in the official Discord.
+
+
+
+## Brand book <a href="#brand-book" id="brand-book"></a>
 
 An overview of how to use our brand in your material
 
 {% file src="../../.gitbook/assets/AlchemixBrandBook_01.pdf" %}
 
-#### The Alchemix logo <a href="#the-alchemix-logo" id="the-alchemix-logo"></a>
+## The Alchemix logo <a href="#the-alchemix-logo" id="the-alchemix-logo"></a>
 
 **Bronze**
 

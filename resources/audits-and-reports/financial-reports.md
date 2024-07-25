@@ -21,7 +21,7 @@ layout:
 
 Quarterly financial reports.
 
-#### 2023 <a href="#id-2023" id="id-2023"></a>
+### 2023 <a href="#id-2023" id="id-2023"></a>
 
 {% file src="../../.gitbook/assets/Alchemix_Q4_2023_Financial_Report.pdf" %}
 
@@ -31,7 +31,7 @@ Quarterly financial reports.
 
 {% file src="../../.gitbook/assets/Alchemix_Q1_2023_Financial_Report.pdf" %}
 
-#### 2022 <a href="#id-2022" id="id-2022"></a>
+### 2022 <a href="#id-2022" id="id-2022"></a>
 
 {% file src="../../.gitbook/assets/Alchemix_Q4_2022_Financial_Report.pdf" %}
 

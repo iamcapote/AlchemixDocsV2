@@ -21,7 +21,7 @@ layout:
 
 Vault losses and collateral de-pegging events are two scenarios that can create a loss of alAsset backing, thus jeopardizing the health of the protocol. Vault losses are caused by the underlying yield strategy returning less of the underlying token than expected - for example, a strategy that is meant to earn 10% APR on ETH suddenly only being worth 0.9 ETH per 1 ETH deposited. Collateral de-pegging is caused by the underlying collateral being worth less than its expected value. This is only applicable to alUSD as it is the only alchemist that accepts multiple collateral types. For example, if USDT were to be worth $0.9 relative to DAI and USDC each being worth $1. This is not relevant to ETH as 1 ETH will always be worth 1 ETH.
 
-Vault losses are handled automatically through the `maxloss()` parameter. Collateral de-pegging is handled manually through sentinels' ability to pause tokens (see [Multisig Admin Rights](https://alchemix-finance.gitbook.io/user-docs/multisig-admin-rights)). See below for an example scenario where a yield-bearing asset experiences a 10% loss in underlying collateral, and another scenario where DAI drops to $0.80 relative to USDC and USDT.
+Vault losses are handled automatically through the `maxloss()` parameter. Collateral de-pegging is handled manually through sentinels' ability to pause tokens (see [Multisig Admin Rights](https://alchemix-finance.gitbook.io/user-docs/alchemix-dao/the-alchemix-dao/governance-process/multisig-admin-rights)). See below for an example scenario where a yield-bearing asset experiences a 10% loss in underlying collateral, and another scenario where DAI drops to $0.80 relative to USDC and USDT.
 
 ### Vault Loss Scenario <a href="#vault-loss-scenario" id="vault-loss-scenario"></a>
 

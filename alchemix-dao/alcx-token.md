@@ -23,7 +23,7 @@ layout:
 
 The ALCX token is an ERC-20 token that serves as both the governance and incentive token for the Alchemix platform.
 
-The token was launched without presales or external funding. ALCX does not have a hard cap, but does have a carefully crafted emissions schedule (token mints). Emissions are the rate at which new ALCX tokens are minted. The token emissions are distributed to liquidity providers, the treasury, and also to contributors to the protocol.&#x20;
+The token was launched without presales or external funding. ALCX does not have a hard cap but does have a carefully crafted emissions schedule (token mints). Emissions are the rate at which new ALCX tokens are minted. The token emissions are distributed to liquidity providers, the treasury, and to contributors to the protocol.&#x20;
 
 The ALCX emissions (slow minting) gradually reduce issuance over three years, continuing with a long tail of fixed weekly emissions. Alchemix is now in the long-tail period, where 2200 ALCX are minted per week indefinitely.
 
